@@ -1,26 +1,91 @@
 <!doctype html>
 <html class="" lang="en">
 
-  <head>
-    <meta charset="utf-8">
+<head>
+  <meta charset="utf-8">
 
-    <title>Week 5, Part 2</title>
+  <title>Nicole Sato - Silly Story Generator</title>
 
-    <meta name="description" content="">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="UCLAx WCIB Week 5 Part 2 Assignment">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <link rel="stylesheet" href="css/bootstrap.min.css">
-    <link rel="stylesheet" href="css/styles.css">
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/styles.css">
 
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-    <script src="js/bootstrap.min.js"></script>
-    <script src="js/scripts.js"></script>
-  </head>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
 
-  <body>
+  <link href='https://fonts.googleapis.com/css?family=Blinker' rel='stylesheet'>
+  <link href='https://fonts.googleapis.com/css?family=Carter One' rel='stylesheet'>
+</head>
 
-    <h1>Week 5, Part 2</h1>
+<body>
+  <nav class="navbar navbar-expand-md fixed-top">
+    <a class="navbar-brand" href="#">Silly Story Generator</a>
+  </nav>
 
-	</body>
+  <main role="main" class="container">
+
+    <div class="starter-template">
+      <img src="images/naruto_ramen.png" alt="Naruto ramen" width="125" height="117">
+      <h1>Silly Story Generator: <span class="orange">Naruto Edition</span></h1>
+      <p class="lead">Masashi Kishimoto may have written one of the greatest tales ever.<br>Today, you can write one of the...most...uhh...<em>unique</em>.</p>
+    </div>
+
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6 pt-2">
+
+          <h2 class="h3">Write your story here:</h2>
+          <p class="font-weight-bold text-uppercase">Choose your hero:</p>
+          <div>
+            <label for="naruto">Naruto</label><input id="naruto" type="radio" name="narsas" value="naruto" checked>
+            <label for="sasuke">Sasuke</label><input id="sasuke" type="radio" name="narsas" value="sasuke">
+          </div>
+          <p class="font-weight-bold text-uppercase">Choose your villain:</p>
+          <div>
+            <label for="orochimaru">Orochimaru</label><input id="orochimaru" type="radio" name="oromad" value="orochimaru" checked>
+            <label for="madara">Madara</label><input id="madara" type="radio" name="oromad" value="madara">
+          </div>
+          <p class="font-weight-bold text-uppercase">Choose your setting:</p>
+          <div>
+            <label for="newyork">New York</label><input id="newyork" type="radio" name="newtok" value="newyork" checked>
+            <label for="tokyo">Tokyo</label><input id="tokyo" type="radio" name="newtok" value="tokyo">
+          </div>
+          <div>
+            <label class="font-weight-bold text-uppercase" for="customweapon">Weapon of choice:</label>
+            <input id="customweapon" type="text" class="form-control" placeholder="">
+          </div>
+          <div>
+            <label class="font-weight-bold text-uppercase" for="customninjutsu">Ninjutsu of choice:</label>
+            <input id="customninjutsu" type="text" class="form-control" placeholder="">
+          </div>
+          <div>
+            <label class="font-weight-bold text-uppercase" for="customanimal">Coolest animal:</label>
+            <input id="customanimal" type="text" class="form-control" placeholder="">
+          </div>
+
+          <button class="btn btn-primary mt-2 randomize">Adventure awaits!</button>
+        </div>
+
+        <div class="col-md-6 pt-2">
+          <h2 class="h3">Your Naruto story:</h2>
+          <div class="no-borders">
+             <img id="herophoto">
+             <span class="versus"></span>
+             <img id="villainphoto">
+          </div>
+          <p class="story"></p>
+        </div>
+      </div>
+      <hr>
+    </div>
+  </main>
+
+  <footer class="text-center">
+    <p>Designed by Nicole &copy; 2019</p>
+  </footer>
+  <script src="js/scripts.js"></script>
+</body>
 
 </html>

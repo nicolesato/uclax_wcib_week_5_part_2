@@ -1,0 +1,34 @@
+body {
+  font-family: 'Blinker', sans-serif;
+  padding-top: 5rem;
+  color: #000064; }
+  body h1, body h2 {
+    font-family: 'Carter One', sans-serif; }
+  body nav {
+    background-color: #000064; }
+
+.orange {
+  color: #fb854e; }
+
+.starter-template {
+  padding: 3rem 1.5rem;
+  text-align: center; }
+
+.col-md-6 {
+  background-color: rgba(210, 228, 245, 0.8);
+  border-radius: 20px; }
+
+.no-borders img {
+  width: 150px;
+  height: 150px;
+  border-radius: 75px; }
+
+.no-borders {
+  text-align: center;
+  margin-top: 1rem;
+  margin-bottom: 1rem; }
+
+.versus {
+  font-family: 'Carter One', sans-serif;
+  font-size: 2rem;
+  color: #fb854e; }

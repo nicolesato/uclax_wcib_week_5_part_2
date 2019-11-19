@@ -1,0 +1,48 @@
+$color1: rgba( 0, 0, 100, 1);
+$color2: rgba( 251, 133, 78, 1);
+$color3: rgba( 210, 228, 245, 0.8);
+
+body {
+  font-family: 'Blinker', sans-serif;
+  padding-top: 5rem;
+  color: $color1;
+  h1, h2 {
+    font-family: 'Carter One', sans-serif;
+  }
+  nav {
+    background-color: $color1;
+  }
+}
+
+.orange {
+  color: $color2;
+}
+
+.starter-template {
+  padding: 3rem 1.5rem;
+  text-align: center;
+}
+
+.col-md-6 {
+  background-color: $color3;
+  border-radius: 20px;
+}
+
+.no-borders img {
+  width: 150px;
+  height: 150px;
+  border-radius: 75px;
+
+}
+
+.no-borders {
+  text-align: center;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+.versus {
+  font-family: 'Carter One', sans-serif;
+  font-size: 2rem;
+  color: $color2;
+}
