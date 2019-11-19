@@ -26,9 +26,9 @@ function result() {
   var yItem = randomValueFromArray(insertY);
   var zItem = randomValueFromArray(insertZ);
 
-  newStory = newStory.replace(':insertx:',xItem);
-  newStory = newStory.replace(':inserty:',yItem);
-  newStory = newStory.replace(':insertz:',zItem);
+  newStory = newStory.replace(/:insertX:/g,xItem);
+  newStory = newStory.replace(/:insertY:/g,yItem);
+  newStory = newStory.replace(/:insertZ:/g,zItem);
 
   if(customWeapon.value !== '') {
     var weapon = customWeapon.value;
